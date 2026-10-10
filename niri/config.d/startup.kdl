@@ -1,0 +1,20 @@
+/*================================
+     _             _               
+ ___| |_ __ _ _ __| |_ _   _ _ __  
+/ __| __/ _` | '__| __| | | | '_ \ 
+\__ \ || (_| | |  | |_| |_| | |_) |
+|___/\__\__,_|_|   \__|\__,_| .__/ 
+                            |_|    
+=================================*/
+
+// Add lines like this to spawn processes at startup.
+// Note that running niri as a session supports xdg-desktop-autostart,
+// which may be more convenient to use.
+// See the binds section below for more spawn examples.
+
+// This line starts waybar, a commonly used bar for Wayland compositors.
+spawn-at-startup "ashell"
+spawn-at-startup "swaybg" "-i" "/home/Kotaro/Pictures/Wallpapers/Spider-Man.png" "-m" "fill"
+
+
+

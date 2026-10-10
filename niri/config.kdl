@@ -1,0 +1,16 @@
+// This config is in the KDL format: https://kdl.dev
+// "/-" comments out the following node.
+// Check the wiki for a full description of the configuration:
+// https://niri-wm.github.io/niri/Configuration:-Introduction
+
+include "config.d/input.kdl"
+
+include "config.d/output.kdl"
+
+include "config.d/layout.kdl"
+
+include "config.d/startup.kdl"
+
+include "config.d/rules.kdl"
+
+include "config.d/binds.kdl"

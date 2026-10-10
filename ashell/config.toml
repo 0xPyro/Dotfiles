@@ -1,0 +1,4 @@
+[modules]
+left = ["Workspaces", "WindowTitle"]
+center = ["Tempo"]
+right = ["Tray", "KeyboardLayout", "Settings"]

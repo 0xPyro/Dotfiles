@@ -1,0 +1,19 @@
+configuration {
+    modi: "drun";
+    show-icons: true;
+}
+
+window {
+    transparency:       "real";
+    localition:         center;
+    anchor:             center;
+    fullscreen:         false;
+
+    enabled:            true;
+    margin:             0px;
+    padding:            0px;
+    border:             2px solid;
+    border-radius:      @border;
+    cursor:             "defautl";
+    background-color:   @background;
+}
