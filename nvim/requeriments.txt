@@ -1,0 +1,78 @@
+## Recursos para configurar Neovim desde cero
+
+### 1. Neovim y configuración en Lua
+
+- [https://neovim.io/doc/user/](<https://neovim.io/doc/user/>) — documentación oficial de Neovim.
+- [https://github.com/nanotee/nvim-lua-guide](<https://github.com/nanotee/nvim-lua-guide>) — guía para configurar Neovim con Lua.
+- [https://www.lua.org/manual/5.1/](<https://www.lua.org/manual/5.1/>) — manual del lenguaje Lua.
+- [https://github.com/folke/lazy.nvim](<https://github.com/folke/lazy.nvim>) — gestor de plugins.
+- [https://github.com/folke/which-key.nvim](<https://github.com/folke/which-key.nvim>) — ayuda visual para recordar atajos de teclado.
+
+### 2. Resaltado de sintaxis y navegación
+
+- [https://github.com/nvim-treesitter/nvim-treesitter](<https://github.com/nvim-treesitter/nvim-treesitter>) — resaltado de sintaxis y análisis del código.
+- [https://github.com/nvim-tree/nvim-tree.lua](<https://github.com/nvim-tree/nvim-tree.lua>) — árbol de archivos para explorar carpetas y archivos.
+- [https://github.com/stevearc/oil.nvim](<https://github.com/stevearc/oil.nvim>) — explorador de archivos que permite gestionarlos directamente desde Neovim.
+- [https://github.com/nvim-lua/plenary.nvim](<https://github.com/nvim-lua/plenary.nvim>) — biblioteca de utilidades Lua utilizada por otros plugins.
+
+### 3. Autocompletado, diagnósticos y formato
+
+- [https://github.com/neovim/nvim-lspconfig](<https://github.com/neovim/nvim-lspconfig>) — configuración de servidores LSP para autocompletado, diagnósticos y navegación por el código.
+- [https://github.com/mason-org/mason.nvim](<https://github.com/mason-org/mason.nvim>) — instalación y gestión de herramientas de desarrollo.
+- [https://github.com/Saghen/blink.cmp](<https://github.com/Saghen/blink.cmp>) — autocompletado de código.
+- [https://github.com/stevearc/conform.nvim](<https://github.com/stevearc/conform.nvim>) — formateo automático del código y sangría consistente.
+- [https://github.com/nvimtools/none-ls.nvim](<https://github.com/nvimtools/none-ls.nvim>) — integración de herramientas externas de formato y diagnóstico mediante interfaces compatibles con Neovim.
+
+### 4. Python
+
+- [https://www.python.org/downloads/](<https://www.python.org/downloads/>) — instalación del intérprete de Python.
+- [https://docs.python.org/3/tutorial/](<https://docs.python.org/3/tutorial/>) — tutorial oficial para aprender Python.
+- [https://docs.astral.sh/uv/](<https://docs.astral.sh/uv/>) — gestión de entornos virtuales y dependencias de Python.
+- [https://github.com/astral-sh/ruff](<https://github.com/astral-sh/ruff>) — análisis de errores, linting y formateo de Python.
+- [https://github.com/microsoft/pyright](<https://github.com/microsoft/pyright>) — servidor LSP para tipos, errores y análisis estático de Python.
+- [https://github.com/microsoft/debugpy](<https://github.com/microsoft/debugpy>) — depuración de programas Python.
+- [https://github.com/mfussenegger/nvim-dap-python](<https://github.com/mfussenegger/nvim-dap-python>) — integración de depuración de Python con Neovim.
+
+### 5. C y herramientas de compilación
+
+- [https://gcc.gnu.org/](<https://gcc.gnu.org/>) — compilador GCC para C.
+- [https://clang.llvm.org/](<https://clang.llvm.org/>) — compilador Clang para C.
+- [https://clangd.llvm.org/](<https://clangd.llvm.org/>) — servidor LSP para autocompletado, errores y navegación en C.
+- [https://clang.llvm.org/docs/ClangFormat.html](<https://clang.llvm.org/docs/ClangFormat.html>) — formateo automático de código C.
+- [https://www.sourceware.org/gdb/](<https://www.sourceware.org/gdb/>) — depurador para encontrar errores durante la ejecución.
+- [https://www.gnu.org/software/make/](<https://www.gnu.org/software/make/>) — automatización de compilación con Makefiles.
+- [https://cmake.org/](<https://cmake.org/>) — configuración y generación de proyectos de compilación.
+
+### 6. Bash y shell scripting
+
+- [https://www.gnu.org/software/bash/manual/](<https://www.gnu.org/software/bash/manual/>) — documentación oficial de Bash.
+- [https://github.com/bash-lsp/bash-language-server](<https://github.com/bash-lsp/bash-language-server>) — servidor LSP para scripts Bash.
+- [https://www.shellcheck.net/](<https://www.shellcheck.net/>) — detección de errores y malas prácticas en scripts de shell.
+- [https://github.com/patrickvane/shfmt](<https://github.com/patrickvane/shfmt>) — formateo automático de scripts Bash y otros shells.
+
+### 7. Git y control de versiones
+
+- [https://git-scm.com/doc](<https://git-scm.com/doc>) — documentación oficial de Git.
+- [https://github.com/tpope/vim-fugitive](<https://github.com/tpope/vim-fugitive>) — ejecutar operaciones de Git desde Neovim.
+- [https://github.com/lewis6991/gitsigns.nvim](<https://github.com/lewis6991/gitsigns.nvim>) — mostrar cambios, adiciones y eliminaciones en los márgenes del editor.
+- [https://github.com/jesseduffield/lazygit](<https://github.com/jesseduffield/lazygit>) — interfaz visual en terminal para commits, ramas, diffs y otras operaciones de Git.
+
+### 8. Terminal integrada
+
+- [https://github.com/akinsho/toggleterm.nvim](<https://github.com/akinsho/toggleterm.nvim>) — abrir y cerrar terminales dentro de Neovim mediante atajos.
+- [https://github.com/folke/snacks.nvim](<https://github.com/folke/snacks.nvim>) — colección de utilidades que incluye una terminal integrada.
+- [https://neovim.io/doc/user/terminal.html](<https://neovim.io/doc/user/terminal.html>) — documentación de la terminal nativa de Neovim.
+
+### 9. Ejecutar código y depurarlo
+
+- [https://github.com/stevearc/overseer.nvim](<https://github.com/stevearc/overseer.nvim>) — ejecutar y administrar tareas como compilaciones y scripts.
+- [https://github.com/mfussenegger/nvim-dap](<https://github.com/mfussenegger/nvim-dap>) — interfaz de depuración compatible con distintos lenguajes.
+- [https://github.com/rcarriga/nvim-dap-ui](<https://github.com/rcarriga/nvim-dap-ui>) — interfaz visual para variables, puntos de interrupción y pila de llamadas.
+- [https://github.com/nvim-neotest/nvim-nio](<https://github.com/nvim-neotest/nvim-nio>) — biblioteca de soporte asíncrono utilizada por plugins de Neovim.
+
+### 10. Instalación y herramientas del sistema
+
+- [https://github.com/mason-org/mason.nvim](<https://github.com/mason-org/mason.nvim>) — administrar servidores LSP, depuradores y herramientas compatibles.
+- [https://github.com/mason-org/mason-lspconfig.nvim](<https://github.com/mason-org/mason-lspconfig.nvim>) — conectar Mason con la configuración de servidores LSP.
+- [https://github.com/nvim-treesitter/nvim-treesitter](<https://github.com/nvim-treesitter/nvim-treesitter>) — resaltado de sintaxis y análisis estructural del código.
+- [https://github.com/neovim/neovim](<https://github.com/neovim/neovim>) — código fuente y documentación del editor.
